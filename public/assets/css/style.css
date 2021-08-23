@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+/* Mobile First - Significa, comece primeiro pelo Mobile, ou Smartphone */
+/* iPhone
+
+Mediaquery - media queries
+breakpoints
+*/
+@media only screen and (min-width: 320px) {
+  .full-banner {
+    width: 100%;
+    height: 100vh;
+    background: url("../images/background-411.jpg") no-repeat;
+    background-size: cover;
+  }
+  /* especificidade */
+
+  header.top-site {
+    width: 100%;
+    min-height: 50px;
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  #logo {
+    margin-left: 10%;
+  }
+  #menu-hotdog {
+    margin-right: 10%;
+  }
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  #menu-site ul {
+    display: flex;
+    flex-direction: column;
+  }
+  #menu-site {
+    height: 100vh;
+    width: 95vw;
+    background-color: #fff;
+  }
+  #menu-site ul {
+    margin-top: 30%;
+  }
+  #menu-site li {
+    text-align: center;
+    min-height: 50px;
+    font-size: 1.5em;
+  }
+  #menu-site a {
+    text-decoration: none;
+    color: #333;
+    font-family: sans-serif;
+  }
+}
+/* Android */
+@media only screen and (min-width: 414px) {
+  .full-banner {
+    background: url("../images/background-414.jpg") no-repeat;
+    background-size: cover;
+  }
+}
+/* Tablets - Portrait */
+@media only screen and (min-width: 768px) {
+  .full-banner {
+    background: url("../images/background-834.jpg") no-repeat;
+    background-size: cover;
+  }
+  .desktop {
+    display: block;
+  }
+  header.top-site {
+    justify-content: space-between;
+  }
+}
+/* Desktop */
+@media only screen and (min-width: 1200px) {
+  .full-banner {
+    background: url("../images/background-1920.jpg") no-repeat;
+    background-size: cover;
+  }
+  .mobile {
+    display: none;
+  }
+  #menu-site ul {
+    display: flex;
+    flex-direction: row;
+  }
+  header.top-site {
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0)
+    );
+  }
+  #menu-site {
+    height: 50px;
+    width: 100%;
+    background-color: unset;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 10%;
+  }
+  #menu-site li {
+    min-width: 150px;
+    text-align: center;
+  }
+  #menu-site ul {
+    margin-top: unset;
+  }
+  #menu-site li {
+    min-height: unset;
+    font-size: unset;
+  }
+  #menu-site a {
+    color: #f4f4f4;
+  }
+}
+/* Extra Large */
+@media only screen and (min-width: 1600px) {
+}
