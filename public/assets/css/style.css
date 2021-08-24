@@ -1,3 +1,23 @@
+@font-face {
+  font-family: "Montserrat-light";
+  src: url("../fonts/Montserrat/Montserrat-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat-regular";
+  src: url("../fonts/Montserrat/Montserrat-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat-bold";
+  src: url("../fonts/Montserrat/Montserrat-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat-medium";
+  src: url("../fonts/Montserrat/Montserrat-Medium.ttf") format("truetype");
+}
+
 * {
   box-sizing: border-box;
 }
@@ -17,6 +37,9 @@ breakpoints
     height: 100vh;
     background: url("../images/background-411.jpg") no-repeat;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   /* especificidade */
 
@@ -27,6 +50,7 @@ breakpoints
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    flex-direction: column;
   }
   #logo {
     margin-left: 10%;
@@ -54,6 +78,16 @@ breakpoints
     height: 100vh;
     width: 95vw;
     background-color: #fff;
+    transition-duration: 0.5s;
+    right: 0;
+    top: 0;
+    position: fixed;
+    transform: translateX(800px);
+    opacity: 0;
+  }
+  .body.open #menu-site {
+    transform: translateX(0px);
+    opacity: 1;
   }
   #menu-site ul {
     margin-top: 30%;
@@ -68,12 +102,89 @@ breakpoints
     color: #333;
     font-family: sans-serif;
   }
+
+  .destak {
+    /* border: solid 1px #fff; */
+    width: 80%;
+    min-height: 375px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .title-destak {
+    width: 90%;
+    border-top: solid 2px #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .title-destak h1,
+  .title-destak h2 {
+    color: #fff;
+    margin: 0;
+  }
+
+  .title-destak h2 {
+    font-family: "Montserrat-medium";
+    font-size: 1.2em;
+    text-align: center;
+  }
+  .title-destak span {
+    color: #fff;
+    font-family: "Montserrat-light";
+    font-size: 2em;
+  }
+
+  .title-destak h1 {
+    font-family: "Montserrat-regular";
+    font-size: 3em;
+    text-transform: uppercase;
+  }
+  .full-banner form,
+  .full-banner form label {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .input-form-search {
+    width: 90%;
+    min-height: 45px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 4%;
+    padding-left: 7%;
+    outline: 0;
+  }
+  .full-banner .input-form-search,
+  .full-banner .input-form-search::-webkit-input-placeholder {
+    font-family: "Montserrat-light";
+    font-size: 0.8em;
+  }
+
+  .full-banner .input-form-search::-webkit-input-placeholder {
+    color: #ccc;
+  }
+
+  #menu-hotdog {
+    cursor: pointer;
+  }
 }
 /* Android */
 @media only screen and (min-width: 414px) {
   .full-banner {
     background: url("../images/background-414.jpg") no-repeat;
     background-size: cover;
+  }
+  .destak {
+    min-height: 350px;
+  }
+  .title-destak {
+    width: 80%;
   }
 }
 /* Tablets - Portrait */
@@ -87,6 +198,30 @@ breakpoints
   }
   header.top-site {
     justify-content: space-between;
+  }
+
+  .destak {
+    width: 90%;
+    min-height: 500px;
+  }
+  .title-destak {
+    width: 70%;
+  }
+  .title-destak h2 {
+    font-size: 2em;
+  }
+  .title-destak span {
+    font-size: 2.5em;
+  }
+  .full-banner .input-form-search,
+  .full-banner .input-form-search::-webkit-input-placeholder {
+    padding-top: 1%;
+    font-family: "Montserrat-light";
+    font-size: 1em;
+  }
+
+  .full-banner .input-form-search::-webkit-input-placeholder {
+    color: #ccc;
   }
 }
 /* Desktop */
@@ -131,6 +266,19 @@ breakpoints
   }
   #menu-site a {
     color: #f4f4f4;
+  }
+  .destak {
+    width: 80%;
+  }
+  .title-destak {
+    width: 60%;
+  }
+  .input-form-search {
+    width: 70%;
+    min-height: 85px;
+  }
+  .title-destak h1 {
+    font-size: 5em;
   }
 }
 /* Extra Large */
