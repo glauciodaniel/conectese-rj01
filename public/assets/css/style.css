@@ -269,6 +269,23 @@ breakpoints
     flex-direction: column;
   }
   /* *******************Terminando o FOOTER************ */
+
+  /* ***********Criando Galeria*********** */
+  .caroussel-container {
+    width:100%;
+    overflow: hidden;
+    height: 400px;
+    border: solid 2px green;
+  }
+  .caroussel-gallery .card {
+    height: 352px;
+    width: 237px;
+    border: solid 1px #f0f0f0;
+    border-radius: 20px;
+  }
+  /* ***********Terminando Galeria*********** */
+
+
 }
 /* Android */
 @media only screen and (min-width: 414px) {

@@ -9,3 +9,13 @@ menuHotDog.addEventListener("click", (e) => {
 
   body.classList.toggle("open");
 });
+
+$(document).ready(function () {
+  $(".caroussel-gallery").slick({
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    autoplay: true,
+    variableWidth: true,
+    autoplaySpeed: 2000,
+  });
+});
