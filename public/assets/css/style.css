@@ -280,9 +280,83 @@ breakpoints
   .caroussel-gallery .card {
     height: 352px;
     width: 237px;
-    border: solid 1px #f0f0f0;
+    border: solid 1px #e4e4e4;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
   }
+  /* Adicionei */
+.caroussel-gallery {
+  width: 95%;
+  margin: 0 auto;
+}
+.slick-slide {
+  margin: 15px;
+}
+  .slick-prev:before,
+  .slick-next:before {
+    color: #7f7f7f;
+  }
+
+  .title-slider {
+    font-family: "Montserrat-bold";
+    font-size:1.2em;
+    margin-left: 5%;
+  }
+
+  .link-slider li {
+    list-style: none;
+    min-width: 50px;
+    text-align: center;
+  }
+  .link-slider ul {
+    display: flex;
+    margin-left: 5%;
+  }
+   .link-slider li > a {
+     text-decoration: none;
+     font-family: "Montserrat-regular";
+     color: #aaa;
+     font-size: 9px;
+     padding-bottom: 5px;
+   }
+   .link-slider li > a.active {
+     border-bottom: solid 3px red;
+   }
+   .card>h2 {
+      font-family: "Montserrat-bold";
+      margin: unset;
+   }
+    .card > h3 {
+      font-family: "Montserrat-light";
+      color: #BCBCBC;
+      margin: unset;
+   }
+   .gallery-picture {
+     width: 218px;
+     height: 218px;
+     border-radius: 20px;
+     border: inherit;
+     overflow: hidden;
+     position: relative;
+   }
+   .gallery-picture img {
+     height:100%;
+   }
+
+   .gallery-ellipse {
+         width: 59px;
+         height: 59px;
+         border: none;
+         margin: 5%;
+         background: rgba(255, 255, 255, 0.8);
+         position: absolute;
+         border-radius: 50%;
+         top: 0;
+         right: 0;
+   }
   /* ***********Terminando Galeria*********** */
 
 
@@ -299,6 +373,13 @@ breakpoints
   .title-destak {
     width: 80%;
   }
+    .link-slider li {
+      width: 70px;
+    }
+    .link-slider li>a {
+      font-size: 11px;
+    }
+
 }
 /* Tablets - Portrait */
 @media only screen and (min-width: 768px) {
@@ -339,6 +420,13 @@ breakpoints
   .footer-site .link-address {
     align-self: flex-start;
   }
+      .link-slider li {
+        width: 100px;
+      }
+
+      .link-slider li>a {
+        font-size: 14px;
+      }
 }
 /* Desktop */
 @media only screen and (min-width: 1200px) {
@@ -410,6 +498,30 @@ breakpoints
   .footer-site .link.social-media > * {
     margin-right: 5%;
   }
+  .link-slider li {
+    width: 150px;
+  }
+
+  .link-slider li>a {
+    font-size: 16px;
+  }
+  .card {
+    transition-duration: 0.5s;
+  }
+  .card:hover {    
+    cursor: pointer;
+    transform: scale(1.2);
+    transform-style: preserve-3d;
+    box-shadow: rgba(33,33,33,0.8);
+  }
+  .card .gallery-picture img {
+    transition-duration: 0.5s;
+  }
+  .card:hover .gallery-picture img {
+    transform: scale(1.2);
+    transform-style: preserve-3d;
+  }
+  
 }
 /* Extra Large */
 @media only screen and (min-width: 1600px) {

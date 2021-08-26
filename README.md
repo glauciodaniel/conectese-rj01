@@ -48,3 +48,13 @@ Foto: corcovado.jpg
 ingresso: R$ 0,00
 Texto 1 parágrafo: O corcovado é um monumento....
 longitude/latitude: @-22.9515385,-43.2125356,17.54z
+
+---
+
+Soft Skills - Habilidades interpessoais.
+
+- Observando a si mesmo.
+  Capricho, é fazer o melhor que você pode, na condição que
+  você tem, enquanto você não tem condições melhores para fazer
+  melhor ainda.
+  Hard Skills - Profissão, e suas habilidades técnica na sua profissão.
