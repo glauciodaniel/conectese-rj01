@@ -32,10 +32,10 @@
 
         <nav id="menu-site">
             <ul>
-                <li><a href="home.html">Home</a></li>
+                <li><a href="#">Home</a></li>
                 <li><a href="quem-somos.html">Quem Somos</a></li>
-                <li><a href="museu.html">Museu</a></li>
-                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="#lugares">Lugares Populares</a></li>
+                <li><a href="#teatros">Teatros</a></li>
                 <li><a href="turismo.html">Turismo</a></li>
                 <li><a href="contato.html">Contato</a></li>
             </ul>
@@ -67,11 +67,49 @@
             </form>
 
         </div>
+        <a href="#irparaotopo">
+            <svg viewBox="0 0 64 136" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+                <path id="seta1"
+                    d="M33.2438 111.691L47.1178 97.803C47.3481 97.5341 47.4684 97.1882 47.4547 96.8344C47.4411 96.4806 47.2944 96.1451 47.0441 95.8947C46.7937 95.6444 46.4581 95.4977 46.1044 95.4841C45.7506 95.4704 45.4047 95.5907 45.1358 95.821L32.4004 108.556L20.0305 96.1865C19.7671 95.9247 19.4108 95.7777 19.0395 95.7777C18.6681 95.7777 18.3118 95.9247 18.0485 96.1865C17.9167 96.3172 17.8121 96.4726 17.7408 96.6439C17.6694 96.8152 17.6327 96.9989 17.6327 97.1845C17.6327 97.3701 17.6694 97.5538 17.7408 97.7251C17.8121 97.8964 17.9167 98.0519 18.0485 98.1825L31.557 111.691C31.7809 111.914 32.0842 112.04 32.4004 112.04C32.7166 112.04 33.0198 111.914 33.2438 111.691Z"
+                    fill="white" />
+                <path id="seta2"
+                    d="M33.2438 125.157L47.1178 111.269C47.3481 111 47.4684 110.655 47.4547 110.301C47.4411 109.947 47.2944 109.611 47.0441 109.361C46.7937 109.111 46.4581 108.964 46.1044 108.95C45.7506 108.937 45.4047 109.057 45.1358 109.287L32.4004 122.023L20.0305 109.653C19.7671 109.391 19.4108 109.244 19.0395 109.244C18.6681 109.244 18.3118 109.391 18.0485 109.653V109.653C17.7866 109.916 17.6397 110.272 17.6397 110.644C17.6397 111.015 17.7866 111.371 18.0485 111.635L31.557 125.157C31.7809 125.381 32.0842 125.506 32.4004 125.506C32.7166 125.506 33.0198 125.381 33.2438 125.157V125.157Z"
+                    fill="white" />
+                <path id="bolinha"
+                    d="M35.5294 27.1763C35.5294 25.227 33.9493 23.6469 32 23.6469C30.0507 23.6469 28.4706 25.227 28.4706 27.1763V37.7645C28.4706 39.7138 30.0507 41.2939 32 41.2939C33.9493 41.2939 35.5294 39.7138 35.5294 37.7645V27.1763Z"
+                    fill="white" />
+                <path id="mouse" fill-rule="evenodd" clip-rule="evenodd"
+                    d="M2 30.7059C2 17.0612 13.0612 6 26.7059 6H37.2941C50.9388 6 62 17.0612 62 30.7059V58.9412C62 72.5859 50.9388 83.647 37.2941 83.647H26.7059C13.0612 83.647 2 72.5859 2 58.9412V30.7059ZM26.7059 13.0588H37.2941C47.0402 13.0588 54.9412 20.9597 54.9412 30.7059V58.9412C54.9412 68.6873 47.0402 76.5882 37.2941 76.5882H26.7059C16.9597 76.5882 9.05882 68.6873 9.05882 58.9412V30.7059C9.05882 20.9597 16.9597 13.0588 26.7059 13.0588Z"
+                    fill="white" />
+            </svg>
+        </a>
     </section>
 
     <section class="block slider">
         <div class="title-slider">
-            <h1>Lugares populares</h1>
+            <h1 id="lugares">Lugares populares</h1>
+        </div>
+        <nav class="link-slider">
+            <ul>
+                <li><a href="#" data-pontoturistico="0">Todos</a></li>
+                <li><a href="#" data-pontoturistico="1">Museu</a></li>
+                <li><a href="#" data-pontoturistico="2">Galeria</a></li>
+                <li><a href="#" data-pontoturistico="3">Pontos Turísticos</a></li>
+                <li><a href="#" data-pontoturistico="4">Esportes</a></li>
+                <li><a href="#" data-pontoturistico="5">Restaurante</a></li>
+            </ul>
+        </nav>
+        <div class="caroussel-container">
+            <div class="caroussel-gallery">
+
+            </div>
+        </div>
+    </section>
+
+    <section class="block slider">
+        <div class="title-slider">
+            <h1 id="teatros">Teatros</h1>
         </div>
         <nav class="link-slider">
             <ul>
@@ -96,6 +134,15 @@
 
 
     <footer class="footer-site">
+        <div id="irparaotopo">
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#f4f4f4">
+                    <path d="M0 0h24v24H0V0z" fill="none" />
+                    <path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z" />
+                </svg>
+
+            </a>
+        </div>
         <div class="footer-links">
             <nav class="link">
                 <ul>
