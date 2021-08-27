@@ -55,19 +55,184 @@ let database = [
       "A praia carioca reflete um pouco o do que é o Rio de Janeiro,  um local alto astral, com uma beleza natural ímpar. A praia é cumprida e tem uma longa faixa de areia, que durante o verão fica lotada de pessoas",
     longitudeLatidude: "@-22.970722,-43.182365,18z",
   },
+
+  {
+    id: "994382216866168123871",
+    categoria: 3,
+    nome: "Praia de Copacabana",
+    site: "https://www.riotur.rio",
+    endereco: "Avenida Atlântica, Copacabana ",
+    cidade: "Rio de Janeiro",
+    estado: "RJ",
+    cep: "22070-000",
+    urlImagem: "assets/images/gallery/994382216866168123871.jpg",
+    ingresso: {
+      inteira: 0.0,
+      meia: 0.0,
+    },
+    textoCurto:
+      "A praia carioca reflete um pouco o do que é o Rio de Janeiro,  um local alto astral, com uma beleza natural ímpar. A praia é cumprida e tem uma longa faixa de areia, que durante o verão fica lotada de pessoas",
+    longitudeLatidude: "@-22.970722,-43.182365,18z",
+  },
+
+  {
+    id: "994382216866168123871",
+    categoria: 3,
+    nome: "Praia de Copacabana",
+    site: "https://www.riotur.rio",
+    endereco: "Avenida Atlântica, Copacabana ",
+    cidade: "Rio de Janeiro",
+    estado: "RJ",
+    cep: "22070-000",
+    urlImagem: "assets/images/gallery/994382216866168123871.jpg",
+    ingresso: {
+      inteira: 0.0,
+      meia: 0.0,
+    },
+    textoCurto:
+      "A praia carioca reflete um pouco o do que é o Rio de Janeiro,  um local alto astral, com uma beleza natural ímpar. A praia é cumprida e tem uma longa faixa de areia, que durante o verão fica lotada de pessoas",
+    longitudeLatidude: "@-22.970722,-43.182365,18z",
+  },
+
+  {
+    id: "994382216866168123871",
+    categoria: 3,
+    nome: "Praia de Copacabana",
+    site: "https://www.riotur.rio",
+    endereco: "Avenida Atlântica, Copacabana ",
+    cidade: "Rio de Janeiro",
+    estado: "RJ",
+    cep: "22070-000",
+    urlImagem: "assets/images/gallery/994382216866168123871.jpg",
+    ingresso: {
+      inteira: 0.0,
+      meia: 0.0,
+    },
+    textoCurto:
+      "A praia carioca reflete um pouco o do que é o Rio de Janeiro,  um local alto astral, com uma beleza natural ímpar. A praia é cumprida e tem uma longa faixa de areia, que durante o verão fica lotada de pessoas",
+    longitudeLatidude: "@-22.970722,-43.182365,18z",
+  },
+
+  {
+    id: "994382216866168123871",
+    categoria: 3,
+    nome: "Praia de Copacabana",
+    site: "https://www.riotur.rio",
+    endereco: "Avenida Atlântica, Copacabana ",
+    cidade: "Rio de Janeiro",
+    estado: "RJ",
+    cep: "22070-000",
+    urlImagem: "assets/images/gallery/994382216866168123871.jpg",
+    ingresso: {
+      inteira: 0.0,
+      meia: 0.0,
+    },
+    textoCurto:
+      "A praia carioca reflete um pouco o do que é o Rio de Janeiro,  um local alto astral, com uma beleza natural ímpar. A praia é cumprida e tem uma longa faixa de areia, que durante o verão fica lotada de pessoas",
+    longitudeLatidude: "@-22.970722,-43.182365,18z",
+  },
+
+  {
+    id: "994382216866168123871",
+    categoria: 3,
+    nome: "Praia de Copacabana",
+    site: "https://www.riotur.rio",
+    endereco: "Avenida Atlântica, Copacabana ",
+    cidade: "Rio de Janeiro",
+    estado: "RJ",
+    cep: "22070-000",
+    urlImagem: "assets/images/gallery/994382216866168123871.jpg",
+    ingresso: {
+      inteira: 0.0,
+      meia: 0.0,
+    },
+    textoCurto:
+      "A praia carioca reflete um pouco o do que é o Rio de Janeiro,  um local alto astral, com uma beleza natural ímpar. A praia é cumprida e tem uma longa faixa de areia, que durante o verão fica lotada de pessoas",
+    longitudeLatidude: "@-22.970722,-43.182365,18z",
+  },
+
+  {
+    id: "994382216866168123871",
+    categoria: 3,
+    nome: "Praia de Copacabana",
+    site: "https://www.riotur.rio",
+    endereco: "Avenida Atlântica, Copacabana ",
+    cidade: "Rio de Janeiro",
+    estado: "RJ",
+    cep: "22070-000",
+    urlImagem: "assets/images/gallery/994382216866168123871.jpg",
+    ingresso: {
+      inteira: 0.0,
+      meia: 0.0,
+    },
+    textoCurto:
+      "A praia carioca reflete um pouco o do que é o Rio de Janeiro,  um local alto astral, com uma beleza natural ímpar. A praia é cumprida e tem uma longa faixa de areia, que durante o verão fica lotada de pessoas",
+    longitudeLatidude: "@-22.970722,-43.182365,18z",
+  },
+
+  {
+    id: "994382216866168123871",
+    categoria: 3,
+    nome: "Praia de Copacabana",
+    site: "https://www.riotur.rio",
+    endereco: "Avenida Atlântica, Copacabana ",
+    cidade: "Rio de Janeiro",
+    estado: "RJ",
+    cep: "22070-000",
+    urlImagem: "assets/images/gallery/994382216866168123871.jpg",
+    ingresso: {
+      inteira: 0.0,
+      meia: 0.0,
+    },
+    textoCurto:
+      "A praia carioca reflete um pouco o do que é o Rio de Janeiro,  um local alto astral, com uma beleza natural ímpar. A praia é cumprida e tem uma longa faixa de areia, que durante o verão fica lotada de pessoas",
+    longitudeLatidude: "@-22.970722,-43.182365,18z",
+  },
+
+  {
+    id: "994382216866168123871",
+    categoria: 3,
+    nome: "Praia de Copacabana",
+    site: "https://www.riotur.rio",
+    endereco: "Avenida Atlântica, Copacabana ",
+    cidade: "Rio de Janeiro",
+    estado: "RJ",
+    cep: "22070-000",
+    urlImagem: "assets/images/gallery/994382216866168123871.jpg",
+    ingresso: {
+      inteira: 0.0,
+      meia: 0.0,
+    },
+    textoCurto:
+      "A praia carioca reflete um pouco o do que é o Rio de Janeiro,  um local alto astral, com uma beleza natural ímpar. A praia é cumprida e tem uma longa faixa de areia, que durante o verão fica lotada de pessoas",
+    longitudeLatidude: "@-22.970722,-43.182365,18z",
+  },
 ];
 //Criando um componente modo Raiz
 // REACT - React modo raiz.
-galeria(database);
 
 const cg = document.querySelector(".caroussel-gallery");
-const card = document.createElement("div");
-card.classList.add("card");
 
-function galeria(db, filtro = 0) {
-  db.forEach((item) => {
-    if (filtro > 0 && filtro == parseInt(item.categoria)) {
-      card.innerHTML = `
+galeria(database, cg, 0);
+
+function bloco(cg, item, counter) {
+  let card = document.createElement("div");
+  card.classList.add("card");
+  card.classList.add("slick-slide");
+  card.setAttribute("data-slick-index", counter);
+
+  if (counter < 0) {
+    // card.classList.add("slick-cloned");
+    card.setAttribute("aria-hidden", false);
+  } else if (counter == 1) {
+    card.classList.add("slick-current");
+    card.classList.add("slick-active");
+    card.setAttribute("aria-hidden", true);
+  } else if (counter > 0) {
+    card.classList.add("slick-active");
+    // card.setAttribute("aria-hidden", true);
+  }
+  card.innerHTML = `
                     <div class="gallery-picture">
                     <img src="${item.urlImagem}" alt="galeria"/>
                         <div class="gallery-ellipse">
@@ -85,9 +250,20 @@ function galeria(db, filtro = 0) {
                         ${item.cidade} - ${item.estado} 
                     </h3>
   `;
-      cg.appendChild(card);
-    } else {
+  cg.appendChild(card);
+}
+function galeria(db, cg, filtro = 0) {
+  cg.innerHMTL = "";
+  let counter = -5;
+  db.forEach((item) => {
+    if (filtro > 0 && filtro == parseInt(item.categoria)) {
+      bloco(cg, item, counter);
+      console.log("com filtro!", filtro);
+    } else if (filtro == 0) {
+      bloco(cg, item, counter);
+      console.log("sem filtro!", cg);
     }
+    counter++;
   });
 }
 
@@ -112,18 +288,21 @@ linkGallery.forEach((el) => {
     e.preventDefault();
     removeActive(linkGallery);
     el.classList.toggle("active");
-    console.log(el.dataset.pontoturistico, " Foi clicado");
-    galeria(database, el.dataset.pontoturistico);
+    // console.log(el.dataset.pontoturistico, " Foi clicado");
+    cg.innerHTML = "";
+    galeria(database, cg, el.dataset.pontoturistico);
+
+    initSlick();
   });
 });
 
-$(document).ready(function () {
+function initSlick() {
   $(".caroussel-gallery").slick({
     slidesToShow: 5,
     slidesToScroll: 1,
-    autoplay: true,
+    // autoplay: true,
     variableWidth: true,
-    autoplaySpeed: 2000,
+    // autoplaySpeed: 2000,
     swipeToSlide: true,
     appendArrows: ".caroussel-gallery",
     touchThreshold: 100,
@@ -155,4 +334,7 @@ $(document).ready(function () {
       // instead of a settings object
     ],
   });
+}
+$(document).ready(function () {
+  initSlick();
 });
